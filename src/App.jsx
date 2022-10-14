@@ -10,15 +10,15 @@ import Error from "./componentes/error";
 
 function App() {
   return (
-    <>
-      <Heder />
+    <div className="mt-20">
+      <Heder/>
       
       <ListaPaciente/>
       <Formulario/>
       <Error/>
       <Pacientes/>
-    </>
+    </div>
   )
 }
 
-export default App;
+export default App
